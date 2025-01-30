@@ -222,3 +222,64 @@ ul li a:hover{
 }
 
 
+/* about */
+
+
+.about_note {
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 25px;
+    font-size: 1.2em;
+    color: #333;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro {    
+    position:absolute;
+    height: 100px;
+    width: var(--max-width);
+    top: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+.intro>p {
+    left: 190;
+}
+
+.background {
+    position:absolute;
+    width: var(--max-width);
+    bottom: 350px;
+    border-top: #a855f7 solid;
+}
+.background > ul {
+    text-align: center;
+}
+
+.key {
+    position:absolute;
+    width: var(--max-width);
+    bottom: 180px;
+    border-top: #a855f7 solid;
+    align-items: center;
+    justify-content: center;
+}
+.key > ul {
+    text-align: center;
+}
+
+.personal_interest {
+    position:absolute;
+    width: var(--max-width);
+    bottom: 50px;
+    text-align: center;
+    border-top: #a855f7 solid;
+    align-items: center;
+    justify-content: center;
+}
+.personal_interest >h3 {
+    text-align: center;
+    
+}
