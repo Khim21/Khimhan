@@ -235,22 +235,11 @@ ul li a:hover{
     align-items: center;
 }
 
-.intro {    
-    position:absolute;
-    height: 100px;
-    width: var(--max-width);
-    top: 50px;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-}
-.intro>p {
-    left: 190;
-}
 
 .background {
     position:absolute;
     width: var(--max-width);
+    top: 105;
     bottom: 350px;
     border-top: #a855f7 solid;
 }
@@ -261,7 +250,8 @@ ul li a:hover{
 .key {
     position:absolute;
     width: var(--max-width);
-    bottom: 180px;
+    top: 350;
+    bottom: 150px;
     border-top: #a855f7 solid;
     align-items: center;
     justify-content: center;
@@ -273,6 +263,7 @@ ul li a:hover{
 .personal_interest {
     position:absolute;
     width: var(--max-width);
+    top: 600;
     bottom: 50px;
     text-align: center;
     border-top: #a855f7 solid;
